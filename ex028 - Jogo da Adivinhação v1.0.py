@@ -6,9 +6,9 @@ import random
 numero = random.randint(0, 5)
 escolha = int(input('Qual número, de 0 à 5, você acha que o computador escolheu ? '))
 
-if escolha >6:
+if escolha > 6:
     print('É ENTRE 0 À 5, JUBILEU')
 if numero == escolha:
     print('Você acertou ')
 else:
-    print('Você errou ')
+    print('Você errou, o computador escolheu o número {}'.format(numero))
