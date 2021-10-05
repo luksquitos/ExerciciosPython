@@ -3,7 +3,7 @@
 
 import random
 
-n1 = str(input("Escreva o nome do primeiro aluno: "))
+n1 = str(input("Escreva o nome do Python aluno: "))
 n2 = str(input("Escreva o nome do segundo aluno "))
 n3 = str(input("Escreva o nome do terceiro aluno "))
 n4 = str(input("Escreva o nome do quarto aluno "))
