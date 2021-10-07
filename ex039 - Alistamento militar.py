@@ -10,3 +10,7 @@ atual = datetime.today().year
 
 if atual - ano < 18:
     print('{}Você tem {} anos e lhe faltam {} para se alistar no exército'.format(cores['verde'], atual - ano, 18 - (atual - ano),))
+elif atual - ano == 18:
+    print('{}Chegou a hora de você se alistar no exército' .format(cores['amarelo']))
+elif atual - ano > 18:
+    print('{}Já passou {} anos do seu prazo de alistamento'.format(cores['vermelho'], (atual - ano) - 18))
