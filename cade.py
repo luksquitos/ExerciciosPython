@@ -1,1 +1,0 @@
-#Cadê essa merda man
