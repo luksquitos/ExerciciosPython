@@ -1,12 +1,20 @@
 #Crie um programa que faça o computador jogar Jokenpô com você.
 
 from random import choice
+from time import sleep
 
 print('\033[1;35mO que você escolhe, meu brow?')
 print('\033[1;33m(1) - Pedra\n(2) - Papel\n(3) - Tesoura\033[m')
 opcao = int(input('\033[1;35mMAKE YOUR CHOICE! - \033[m'))
 lista = ['Pedra', 'Papel', 'Tesoura']
 maquina = choice(lista)
+
+print('\033[1;36mTAM')
+sleep(1)
+print('TAMM')
+sleep(1)
+print('TAMMMMMMMM')
+sleep(1)
 
 
 if opcao > 3 or opcao == 0:

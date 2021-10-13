@@ -4,10 +4,17 @@ from datetime import datetime
 
 print('Digite aqui 7 anos de nascimento:')
 atual = datetime.today().year
+maioridade = 0
+menoridade = 0
 
-for c in range(1, 7):
+for c in range(1, 8):
     ano = int(input('- '))
     if atual - ano >= 18:
-        print(f'A idade {atual - ano} já atingiu a maioridade')
+        maioridade = maioridade + 1
+        #print(f'A idade {atual - ano} já atingiu a maioridade')
     else:
-        print(f'A idade {atual - ano} faltam {18 - (atual - ano)} anos para atingir a maioridade')
+        menoridade += 1
+        #print(f'A idade {atual - ano} faltam {18 - (atual - ano)} anos para atingir a maioridade')
+
+print(f'{maioridade} pessoas atingiram a maioridade.')
+print(f'{menoridade} não atingiram a maioridade.')

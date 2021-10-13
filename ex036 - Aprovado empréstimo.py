@@ -8,7 +8,7 @@ salario = float(input('Digite seu salário: -'))
 anos = int(input('Digite em quantos anos você quer pagar'))
 prestacao = (casa / anos) / 12
 
-if prestacao > salario*1.3:
+if prestacao > salario*0.3:
     print('{}O EMPRÉSTIMO FOI RECUSADO{}'.format(cores['vermelho'], cores['padrao']))
 else:
     print('{}O EMPRÉSTIMO FOI ACEITO{}'.format(cores['ciano'], cores['padrao']))
