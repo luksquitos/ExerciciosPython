@@ -2,7 +2,10 @@ print('''\033[1;36mVAMOS BRINCAR DE RODA A RODA JEQUITI!!
 Uma palavra foi escolhida e você pode errar 4 vezes
 BOA SORTE!!\033[m''')
 
-secreto = 'abacate'
+secreto = input('Escreva a palavra secreta: ')
+dica = input('Escreva aqui a dica: ')
+print(f'A palavra escolhida tem {"*"*len(secreto)}')
+print(f'A dica é {dica}')
 chances = 4
 letra_correta = []
 

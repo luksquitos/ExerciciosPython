@@ -14,7 +14,7 @@ while cont != jogador['quantJogos'] + 1:
 jogador['Gols'] = gols
 
 for jogo, gol in enumerate(jogador['Gols']):
-    print(f'Na partida {jogo}, teve {gol}')
+    print(f'Na partida {jogo + 1} teve {gol} gols')
     somaGols += gol
 
-print(f'Foi um total de {somaGols} gols.')
+print(f'\nFoi um total de {somaGols} gols.')

@@ -1,2 +1,1 @@
-print("Olá, estou editando isso do GitHub")
-print("Lucas tem cara de babacão")
+print(20 % 50)
